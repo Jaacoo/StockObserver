@@ -8,7 +8,7 @@ first_comp = 2 # compare last two available end of day data
 second_comp = 7 # compare last available end of data day and seven days ago
 third_comp = 30 # compare last available end of day data and thirty days ago
 
-rolling_window = 2
+rolling_window = 4
 
 with open("NYSE_Symbols_test.txt") as file:
     nyse_symbs = [line.strip() for line in file]
